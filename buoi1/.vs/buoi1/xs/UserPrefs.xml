@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{FAA3BD0A-9ED7-4E6B-93D6-5F72D9B714C0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="buoi1/EmptyClass.cs">
+    <Files>
+      <File FileName="buoi1/Program.cs" Line="1" Column="1" />
+      <File FileName="buoi1/EmptyClass.cs" Line="8" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="buoi1" expanded="True">
+            <Node name="buoi1" expanded="True">
+              <Node name="EmptyClass.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.buoi1 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
