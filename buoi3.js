@@ -102,16 +102,23 @@
 // },[])
 // console.log(newArr)
 
-function countOccurrences(arr){
- const object = arr.reduce(function(accumuLator,currentValue){
-        if(currentValue in accumuLator){
-            accumuLator[currentValue]++
-        }else{
-            accumuLator[currentValue] =1 
-        }
+// function countOccurrences(arr){
+//  const object = arr.reduce(function(accumuLator,currentValue){
+//         if(currentValue in accumuLator){
+//             accumuLator[currentValue]++
+//         }else{
+//             accumuLator[currentValue] =1 
+//         }
 
- },{})
- console.log(object)
-}
-countOccurrences(["a","b","c","b","a","a"]);
-//{a:3 , b:2 , c:1}
+//  },{})
+//  console.log(object)
+// }
+// countOccurrences(["a","b","c","b","a","a"]);
+// //{a:3 , b:2 , c:1}
+//16 ham sort java
+const arrNums = [1,10,2,20,14,5,6]
+
+
+console.log(arrNums.sort(function(a,b){
+    return b - a 
+}))
