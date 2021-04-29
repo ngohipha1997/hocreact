@@ -116,9 +116,32 @@
 // countOccurrences(["a","b","c","b","a","a"]);
 // //{a:3 , b:2 , c:1}
 //16 ham sort java
-const arrNums = [1,10,2,20,14,5,6]
+// const arrNums = [1,10,2,20,14,5,6]
 
 
-console.log(arrNums.sort(function(a,b){
-    return b - a 
-}))
+// console.log(arrNums.sort(function(a,b){
+//     return b - a 
+// }))
+// const arrChar =["a" ,"A" ,"B" ,"c","d","D"]
+
+// console.log(arrchar.sort())
+
+
+//18 function scope {}
+// let a = 5
+// function setValue (){
+//     let a = 10
+//     console.log(a)
+// }
+// setValue()
+// console.log(a)
+
+// 19 arrow function
+const arrNums = [1,2,3,4,5];
+const newArr = arrNums.map(function(number){
+    return number *2 
+})
+const newArr2 = arrNums.map((number) => {
+    return number * 2
+})
+console.log(newArr2)
