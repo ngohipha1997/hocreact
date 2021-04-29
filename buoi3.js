@@ -87,17 +87,31 @@
 
 //  console.log(newArrNums)
 
-const arrPersom = [
-    {id : 1 , name : "Teo" , age : 20, },
-    {id : 2, name : "Te0" , age : 25, },
-    {id : 3 , name : "Teoo" , age : 22, },
-    {id : 4 , name : "Tuan" , age : 21, },
-    {id : 5 , name : "Lan" , age : 26, },
-]
-conts newArr = arrPersom.reduce(function(accumulator ,currentValue){
-    if (currentValue.age < 25){
-        accumulator.push(currentValue.name);
-    }
-    return accumulator
-},[])
-console.log(newArr)
+// const arrPersom = [
+//     {id : 1 , name : "Teo" , age : 20, },
+//     {id : 2, name : "Te0" , age : 25, },
+//     {id : 3 , name : "Teoo" , age : 22, },
+//     {id : 4 , name : "Tuan" , age : 21, },
+//     {id : 5 , name : "Lan" , age : 26, },
+// ]
+// // conts newArr = arrPersom.reduce(function(accumulator ,currentValue){
+//     if (currentValue.age < 25){
+//         accumulator.push(currentValue.name);
+//     }
+//     return accumulator
+// },[])
+// console.log(newArr)
+
+function countOccurrences(arr){
+ const object = arr.reduce(function(accumuLator,currentValue){
+        if(currentValue in accumuLator){
+            accumuLator[currentValue]++
+        }else{
+            accumuLator[currentValue] =1 
+        }
+
+ },{})
+ console.log(object)
+}
+countOccurrences(["a","b","c","b","a","a"]);
+//{a:3 , b:2 , c:1}
